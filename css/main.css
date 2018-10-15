@@ -12,15 +12,18 @@ body {
   margin: 0;
 }
 
+div {
+  border-top: 3px solid #595652;
+  border-bottom: 3px solid #595652;
+  background-color: #79756f;
+}
+
 h1 {
   font-family: "Bevan", cursive;
   margin: 0 auto;
   display: block;
   text-align: center;
   padding: .6em;
-  border-style: solid;
-  border-color: #595652;
-  background-color: #79756f;
   color: #fff;
 }
 
