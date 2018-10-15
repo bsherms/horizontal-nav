@@ -16,14 +16,14 @@ div {
   border-top: 3px solid #595652;
   border-bottom: 3px solid #595652;
   background-color: #79756f;
+  padding: .6em;
 }
 
 h1 {
   font-family: Bevan, serif;
-  margin: 0 auto;
+  margin: .3em;
   display: block;
   text-align: center;
-  padding: .6em;
   color: #fff;
 }
 
