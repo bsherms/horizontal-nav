@@ -8,3 +8,7 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+h2 {
+  display: inline-block;
+}
