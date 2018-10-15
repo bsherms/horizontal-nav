@@ -1,5 +1,4 @@
 html {
-  box-sizing: border-box;
   background-color: #dbd6cf;
   line-height: 1.5;
 }
@@ -11,7 +10,7 @@ html {
 h1 {
   font-family: "Bevan", cursive;
   display: block;
-  max-width: none;
+  margin: 0 auto;
   text-align: center;
   padding: .6em;
   border-style: solid;
