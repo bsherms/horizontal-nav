@@ -1,8 +1,7 @@
 html {
   box-sizing: border-box;
   background-color: #dbd6cf;
-  font-family: 'Bevan', cursive;
-  line height: 1.5;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -10,9 +9,10 @@ html {
 }
 
 h1 {
+  font-family: "Bevan", cursive;
   display: block;
+  max-width: none;
   text-align: center;
-  margin: 0;
   padding: .6em;
   border-style: solid;
   border-color: #595652;
@@ -22,6 +22,7 @@ h1 {
 
 .nav {
   font-family: sans-serif;
+  text-align: center;
 }
 
 .nav li {
@@ -34,6 +35,7 @@ h1 {
   margin: .3em;
   padding: .5em .75em;
   background-color: #713837;
+  border-radius: 4px;
   color: #fff;
   text-decoration: none;
 }
