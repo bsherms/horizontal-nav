@@ -19,12 +19,25 @@ h1 {
   background-color: #79756f;
   color: #fff;
 }
-nav li {
+
+.nav {
+  font-family: sans-serif;
+}
+
+.nav li {
+  list-style-type: none;
   display: inline-block;
+  text-align: center;
+}
+
+.nav a {
   margin: .3em;
   padding: .5em .75em;
   background-color: #713837;
-  text-align: center;
   color: #fff;
   text-decoration: none;
+}
+
+.nav a:hover {
+  background-color: #f33;
 }
