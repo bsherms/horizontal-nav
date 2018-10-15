@@ -12,11 +12,19 @@ html {
 h1 {
   display: block;
   text-align: center;
-  margin: .3em;
-
+  margin: 0;
+  padding: .6em;
+  border-style: solid;
+  border-color: #595652;
+  background-color: #79756f;
+  color: #fff;
 }
-.nav li {
+nav li {
   display: inline-block;
+  margin: .3em;
   padding: .5em .75em;
   background-color: #713837;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
 }
