@@ -12,7 +12,11 @@ html {
 h1 {
   display: block;
   text-align: center;
+  margin: .3em;
+
 }
 .nav li {
   display: inline-block;
+  padding: .5em .75em;
+  background-color: #713837;
 }
